@@ -13,4 +13,5 @@ npm install
 npm run dev
 ```
 
-**Note:** Tooling for creating octahedral impostor atlases will be open sourced soon.
+
+**Note:** Tooling for creating the needed assets will be open sourced soon.
