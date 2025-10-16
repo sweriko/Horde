@@ -1,0 +1,28 @@
+{
+  "name": "octahedral-impostor-demo",
+  "version": "1.0.0",
+  "description": "Octahedral impostor rendering demo with TSL WebGPU",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "@dimforge/rapier3d-compat": "^0.19.0",
+    "lil-gui": "^0.20.0",
+    "stats.js": "^0.17.0",
+    "stats-gl": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.180.0",
+    "@types/stats.js": "0.17.4",
+    "typescript": "5.9.2",
+    "vite": "^7.1.7"
+  },
+  "keywords": ["three.js", "webgpu", "tsl", "octahedral", "impostor", "typescript"],
+  "author": "",
+  "license": "MIT"
+}

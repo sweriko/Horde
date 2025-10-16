@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octahedral Impostor Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        
+        canvas {
+            display: block;
+        }
+        
+        .perf-hud {
+            position: absolute;
+            top: var(--perf-top, 8px);
+            left: var(--perf-left, 0px);
+            transform: scale(var(--perf-scale, 1));
+            transform-origin: top left;
+            z-index: 9999;
+            pointer-events: all;
+        }
+
+        .perf-panel {
+            position: absolute;
+            top: 0;
+        }
+
+        .statsgl-panel {
+            left: var(--statsgl-left, 0px);
+        }
+
+        .statsjs-panel {
+            left: var(--statsjs-left, 350px);
+            top: var(--statsjs-top, 48px);
+        }
+    </style>
+</head>
+<body>
+    <script type="module" src="./demo.js"></script>
+</body>
+</html>
